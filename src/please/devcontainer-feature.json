@@ -1,0 +1,20 @@
+{
+    "name": "please",
+    "id": "please",
+    "version": "0.1.0",
+    "description": "Install please",
+    "documentationURL": "https://github.com/please-build/devcontainer-feature/tree/main/src/please",
+    "licenseURL": "https://github.com/please-build/devcontainer-feature/blob/main/LICENSE",
+    "keywords": ["please", "please.build"],
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": ["latest"],
+            "default": "latest",
+            "description": "Select or enter a please version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
