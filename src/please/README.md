@@ -1,15 +1,13 @@
 
-# My Favorite Color (color)
+# please (please)
 
-A feature to remind you of your favorite color
+Install please
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/feature-starter/color:1": {
-        "version": "latest"
-    }
+    "ghcr.io/please-build/devcontainer-feature/please:0": {}
 }
 ```
 
@@ -17,10 +15,10 @@ A feature to remind you of your favorite color
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| favorite | Choose your favorite color. | string | red |
+| version | Select or enter a please version. | string | latest |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/please-build/devcontainer-feature/blob/main/src/please/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
